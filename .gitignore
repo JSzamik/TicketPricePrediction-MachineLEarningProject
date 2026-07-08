@@ -1,0 +1,10 @@
+# Duże pliki z danymi (baza danych / arkusze)
+*.csv
+
+# Pliki tymczasowe i foldery checkpointów od Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Pliki systemowe (opcjonalnie, przydatne jeśli jesteś na Macu lub Windowsie)
+.DS_Store
+Thumbs.db

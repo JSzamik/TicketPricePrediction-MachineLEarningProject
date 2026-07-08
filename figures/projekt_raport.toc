@@ -1,0 +1,52 @@
+\babel@toc {polish}{}\relax 
+\contentsline {section}{Streszczenie}{3}{Doc-Start}%
+\contentsline {section}{\numberline {1}Wybór Zbioru Danych}{3}{section.1}%
+\contentsline {section}{\numberline {2}Definicja Problemu i Charakterystyka Zbioru}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Problem predykcyjny}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Zmienne w zbiorze}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Podstawowe statystyki}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Przegląd Literatury}{4}{section.3}%
+\contentsline {section}{\numberline {4}Czyszczenie Danych i Selekcja Cech}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Wstępna obróbka i kodowanie}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Usunięcie wartości ekstremalnych}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Wykrywanie anomalii --- Isolation Forest}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Warianty zbioru danych}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Wstępna selekcja cech}{6}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Eksploracja Danych (EDA)}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Rozkład zmiennej docelowej}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Macierz korelacji}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Rozkład zmiennych kategorycznych}{7}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Analiza linii lotniczych i klas podróży}{7}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Zależność ceny od czasu do wylotu i czasu lotu}{8}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Przygotowanie Danych do Modelowania}{8}{section.6}%
+\contentsline {section}{\numberline {7}Model Łączny --- Punkt Wyjścia}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Dlaczego model łączny jest niewystarczający}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Wybór optymalnego wariantu danych}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Porównywane algorytmy}{9}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Wyniki modelu łącznego}{9}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Dominacja zmiennej \texttt {is\_business} --- ukryty problem modelu łącznego}{10}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Diagnostyka przetrenowania --- Random Forest}{11}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Modele Segmentowe --- Economy vs.\ Business}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Uzasadnienie podziału na segmenty}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Macierze korelacji dla każdego segmentu}{11}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Wyniki modeli segmentowych}{13}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Ważność cech w modelach segmentowych}{13}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Diagnostyka przetrenowania --- wszystkie modele, oba segmenty}{14}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Ewaluacja i Kalibracja Modeli Segmentowych}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Krzyżowa walidacja (5-krotna CV)}{15}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Tuning hiperparametrów --- LightGBM}{15}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Krzywe uczenia}{16}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Analiza Błędów}{17}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Rozkład residuów --- LightGBM}{17}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Najtrudniejsze przypadki --- efekt last-minute}{18}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Porównanie rozkładów błędów --- wszystkie modele}{19}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Wyjaśnialność Modeli (XAI) --- SHAP}{19}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Globalny wpływ cech --- Summary Plot}{20}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Efekt last-minute --- Dependence Plot}{21}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Wdrożenie Modelu i Test Predykcyjny}{22}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Test predykcyjny i wnioski}{22}{subsection.12.1}%
+\contentsline {section}{\numberline {13}Podsumowanie i Wnioski}{24}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Model łączny vs.\ modele segmentowe}{24}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Wybór algorytmu --- LightGBM jako model finalny}{24}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Kluczowe predyktory}{24}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Możliwe kierunki dalszych badań}{24}{subsection.13.4}%
